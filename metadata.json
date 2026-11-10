@@ -1,0 +1,6 @@
+{
+  "name": "Gurukul Snatakottar Mahavidyalaya Rudrapur",
+  "description": "गुरुकुल स्नातकोत्तर महाविद्यालय रुद्रपुर - वैदिक शिक्षा, भारतीय कुश्ती व मल्लखम्ब, एवं १० विश्व कीर्तिमान धरोहर पोर्टल",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #a43700;
+    --color-primary-container: #cd4700;
+    --color-secondary: #b51a1b;
+    --color-tertiary: #735c00;
+    --color-surface: #fff8f6;
+    --color-surface-container: #fdeae3;
+    --color-surface-container-low: #fff1ec;
+    --color-surface-container-high: #f7e4de;
+    --color-surface-container-lowest: #ffffff;
+    --color-on-surface: #231916;
+    --color-on-surface-variant: #5a4138;
+  }
+
+  body {
+    background-color: #fff8f6;
+    color: #231916;
+    font-family: 'Inter', 'Noto Serif Devanagari', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-devanagari {
+    font-family: 'Noto Serif Devanagari', 'Rozha One', 'Tiro Devanagari Hindi', serif;
+  }
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #ECC94B 0%, #F6E05E 40%, #B7791F 75%, #D69E2E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vedic-hero-gradient {
+  background: linear-gradient(180deg, #fff8f6 0%, #fff1ec 50%, #fff8f6 100%);
+}
+
+.sandstone-border {
+  border-color: #e3bfb2;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.material-symbols-outlined.fill-current {
+  font-variation-settings: 'FILL' 1;
+}
